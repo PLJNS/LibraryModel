@@ -1,3 +1,0 @@
-quicktype book.json -l schema -o schema.json
-quicktype -s schema schema.json -o Models.kt
-quicktype -s schema schema.json -o Models.swift --just-types --struct-or-class struct --density normal --protocol equatable --access-level public

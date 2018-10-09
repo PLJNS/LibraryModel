@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Book {
+   string author = 1;
+   string categories = 2;
+   int32 id = 3;
+   string lastCheckedOut = 4;
+   string lastCheckedOutBy = 5;
+   string publisher = 6;
+   string title = 7;
+   string url = 8;
+}
