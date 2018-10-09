@@ -1,0 +1,1 @@
+protoc Model.proto --java_out=. --swift_out=. --python_out=.
