@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Schema",
+    "definitions": {
+        "Schema": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "author": {
+                    "type": "string"
+                },
+                "categories": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "lastCheckedOut": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "lastCheckedOutBy": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "publisher": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "author",
+                "categories",
+                "id",
+                "lastCheckedOut",
+                "lastCheckedOutBy",
+                "publisher",
+                "title",
+                "url"
+            ],
+            "title": "Schema"
+        }
+    }
+}
